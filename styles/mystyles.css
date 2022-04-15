@@ -1,0 +1,21 @@
+h1 {
+    font-style: normal;
+    size: 400px;
+    color: rgb(88, 61, 61);
+}
+
+ul{
+    font-style:oblique;
+}
+
+p {
+    font-style: italic;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    font-style: normal;
+}

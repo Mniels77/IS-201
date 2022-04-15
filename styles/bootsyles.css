@@ -1,0 +1,66 @@
+body {
+    font-style: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50 px;
+    color: rgb(0, 0, 0);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.3984944319524685) 0%, rgba(0,212,255,1) 100%);
+}
+
+   h1
+     {
+       font-size: 30px;
+       text-align-last: center;
+       color: rgb(0, 0, 0);
+       font-family: 'Franklin Gothic Medium';
+   }
+span
+   {
+       text-align-last: center;
+       font-size: 25px;
+   }
+
+
+
+footer {
+    font-style: normal;
+    font-size:25px;
+    
+}
+
+ul{
+    font-style: italic;
+}
+
+li{
+    font-size: 25px;
+    font-style: normal;
+}
+
+.footboi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tableauPlaceholder {
+    height: 500px !important;
+    width: 500px !important;
+    position: static !important;
+    margin: auto;
+    padding: auto;
+}
+
+.tableauContainer div{
+    display: grid;
+  grid-template-columns: repeat(8, 6fr);
+  gap: 50px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d";
+  align-items: start;
+  
+}
